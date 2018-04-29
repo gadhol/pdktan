@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/SuryaL/cordova-gallery-api.git',
+1 verbose cli   '--production',
+1 verbose cli   '--save' ]
+2 info using npm@3.5.2
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData https://github.com/SuryaL/cordova-gallery-api.git
+8 silly fetchOtherPackageData https://github.com/SuryaL/cordova-gallery-api.git
+9 silly cache add args [ 'https://github.com/SuryaL/cordova-gallery-api.git', null ]
+10 verbose cache add spec https://github.com/SuryaL/cordova-gallery-api.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'https://github.com/SuryaL/cordova-gallery-api.git',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'https://github.com/SuryaL/cordova-gallery-api.git',
+11 silly cache add   spec: 'git+https://github.com/SuryaL/cordova-gallery-api.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:SuryaL/cordova-gallery-api.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/SuryaL/cordova-gallery-api.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/SuryaL/cordova-gallery-api.git',
+11 silly cache add      gitUrl: 'git://github.com/SuryaL/cordova-gallery-api.git',
+11 silly cache add      shortcut: 'github:SuryaL/cordova-gallery-api',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/SuryaL/cordova-gallery-api/master/package.json' } }
+12 verbose addRemoteGit caching https://github.com/SuryaL/cordova-gallery-api.git
+13 verbose addRemoteGit git+https://github.com/SuryaL/cordova-gallery-api.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/SuryaL/cordova-gallery-api.git via git+https://github.com/SuryaL/cordova-gallery-api.git
+15 verbose tryClone git-https-github-com-SuryaL-cordova-gallery-api-git-5aca16b6 not in flight; caching
+16 info git [ 'clone',
+16 info git   '--template=/home/dary/.npm/_git-remotes/_templates',
+16 info git   '--mirror',
+16 info git   'https://github.com/SuryaL/cordova-gallery-api.git',
+16 info git   '/home/dary/.npm/_git-remotes/git-https-github-com-SuryaL-cordova-gallery-api-git-5aca16b6' ]
+17 verbose mirrorRemote git+https://github.com/SuryaL/cordova-gallery-api.git git clone https://github.com/SuryaL/cordova-gallery-api.git
+18 verbose setPermissions git+https://github.com/SuryaL/cordova-gallery-api.git set permissions on /home/dary/.npm/_git-remotes/git-https-github-com-SuryaL-cordova-gallery-api-git-5aca16b6
+19 verbose resolveHead git+https://github.com/SuryaL/cordova-gallery-api.git original treeish: master
+20 info git [ 'rev-list', '-n1', 'master' ]
+21 silly resolveHead git+https://github.com/SuryaL/cordova-gallery-api.git resolved treeish: ffdc382c1afe2b5c476b5a30966803784e7f3a99
+22 verbose resolveHead git+https://github.com/SuryaL/cordova-gallery-api.git resolved Git URL: git+https://github.com/SuryaL/cordova-gallery-api.git#ffdc382c1afe2b5c476b5a30966803784e7f3a99
+23 silly resolveHead Git working directory: /tmp/npm-20644-9fc36dad/git-cache-16e2e86a/ffdc382c1afe2b5c476b5a30966803784e7f3a99
+24 info git [ 'clone',
+24 info git   '/home/dary/.npm/_git-remotes/git-https-github-com-SuryaL-cordova-gallery-api-git-5aca16b6',
+24 info git   '/tmp/npm-20644-9fc36dad/git-cache-16e2e86a/ffdc382c1afe2b5c476b5a30966803784e7f3a99' ]
+25 verbose cloneResolved git+https://github.com/SuryaL/cordova-gallery-api.git clone Cloning into '/tmp/npm-20644-9fc36dad/git-cache-16e2e86a/ffdc382c1afe2b5c476b5a30966803784e7f3a99'...
+25 verbose cloneResolved done.
+26 info git [ 'checkout', 'ffdc382c1afe2b5c476b5a30966803784e7f3a99' ]
+27 verbose checkoutTreeish git+https://github.com/SuryaL/cordova-gallery-api.git checkout Note: checking out 'ffdc382c1afe2b5c476b5a30966803784e7f3a99'.
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+27 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+27 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+27 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish   git checkout -b <new-branch-name>
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish HEAD is now at ffdc382... Merge branch 'master' of https://github.com/SuryaL/cordova-gallery-api
+28 error addLocal Could not install /tmp/npm-20644-9fc36dad/git-cache-16e2e86a/ffdc382c1afe2b5c476b5a30966803784e7f3a99
+29 silly fetchPackageMetaData Error: EISDIR: illegal operation on a directory, read
+29 silly fetchPackageMetaData     at Error (native)
+29 silly fetchPackageMetaData  error for https://github.com/SuryaL/cordova-gallery-api.git { Error: EISDIR: illegal operation on a directory, read
+29 silly fetchPackageMetaData     at Error (native) errno: -21, code: 'EISDIR', syscall: 'read' }
+30 silly rollbackFailedOptional Starting
+31 silly rollbackFailedOptional Finishing
+32 silly runTopLevelLifecycles Starting
+33 silly runTopLevelLifecycles Finishing
+34 silly install printInstalled
+35 verbose stack Error: EISDIR: illegal operation on a directory, read
+35 verbose stack     at Error (native)
+36 verbose cwd /home/dary/MEGA/Projects/Pdktan/App/IWIC11/PdktanApp/cordova
+37 error Linux 4.13.0-16-generic
+38 error argv "/usr/bin/node" "/usr/bin/npm" "install" "https://github.com/SuryaL/cordova-gallery-api.git" "--production" "--save"
+39 error node v6.11.4
+40 error npm  v3.5.2
+41 error code EISDIR
+42 error errno -21
+43 error syscall read
+44 error eisdir EISDIR: illegal operation on a directory, read
+45 error eisdir This is most likely not a problem with npm itself
+45 error eisdir and is related to npm not being able to find a package.json in
+45 error eisdir a package you are trying to install.
+46 verbose exit [ -21, true ]
